@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Box, Button, Input, List, ListItem, ListIcon, IconButton, useToast } from '@chakra-ui/react';
+import { Box, Button, Input, List, ListItem, ListIcon, IconButton, useToast, Link } from '@chakra-ui/react';
 import { FaPlus, FaTrash, FaCheckCircle, FaRegCircle } from 'react-icons/fa';
 
 const Index = () => {
@@ -67,6 +67,10 @@ const Index = () => {
           </ListItem>
         ))}
       </List>
+      <Box as="footer" p={4} mt={10} bg="gray.100" textAlign="center">
+        <Box>Copyright © 2023</Box>
+        <Link href="/privacy-policy" color="blue.500">Privacy Policy</Link>
+      </Box>
     </Box>
   );
 };
