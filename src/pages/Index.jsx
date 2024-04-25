@@ -41,7 +41,7 @@ const Index = () => {
       <IconButton
         icon={<FaPlus />}
         ml={2}
-        colorScheme="blue"
+        colorScheme="green"
         onClick={addTask}
         aria-label="Add task"
       />
